@@ -1,0 +1,278 @@
+
+
+body {
+    background-color: #44b2ed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.white-background{
+    padding: 85px  350px;
+}
+
+
+.white-background-1{
+
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+.white-background-sidebar{
+    padding: 0 30px 0 0;
+}
+
+.white-background-sidebar-1{
+    background-color: #fff;
+    padding: 50px;
+}
+
+
+.h2{
+    margin-bottom: 20px;
+    color: #44b2ed;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+h6 {
+    color: #44b2ed;
+    font-size: 20px;
+}
+
+.add-color{
+    color: #44b2ed;
+
+}
+
+.btn-radius {
+    align-items: center;
+    padding: 10px 70px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.btn-radius-1 {
+    align-items: center;
+    padding: 10px 60px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+
+}
+
+
+.form-outline  .form-control {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 1px 0;
+    border-color: #44b2ed;
+    line-height: 26px;
+}
+
+.inline-block{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    color: #44b2ed;
+}
+
+.inline{
+    display: inline-block;
+    
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: #44b2ed;
+}
+
+.col-md-8 {
+    padding: 0 12%;
+}
+
+a,
+:link{
+    color: #44b2ed;
+}
+
+
+
+.resize {
+    padding: 10px 70px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.margin-1{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.margin-2{
+    font-size: 20px;
+}
+
+.m2{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #44b2ed;
+
+}
+
+.m3{
+    padding: 10px 30px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.border{
+    border-bottom: 1px solid #44b2ed;
+    padding: 10px;
+}
+
+.border-1{
+    border: 1px solid #44b2ed;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+}
+
+
+.border{
+    border-top: 1px solid #44b2ed;
+}
+
+
+
+.padding-1{
+    padding-left: 300px;
+}
+
+.padding-2{
+    padding-left: 20px;
+}
+
+.p3{
+    padding-left: 330px;
+}
+
+.padding-4{
+    padding-left: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: -internal-light-dark(#44b2ed, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), #44b2ed);
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border: 1px solid #44b2ed;
+    border-image: initial;
+    border-radius: 2px;
+}
+
+.col-md-8 {
+    padding: 0 15%;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+  }
+  main .helper {
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffea92;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    padding: 1.2em 2em;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  main .helper span {
+    color: #fff;
+    font-size: 0.4em;
+    display: block;
+  }
+  .menu {
+    background: #fff;
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    outline: none;
+  }
+  .menu .avatar {
+    background:#fff;
+    padding: 2em 0.5em;
+    text-align: center;
+  }
+  .menu .avatar img {
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+  }
+  .menu .avatar h2 {
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .menu ul {
+    
+    padding: 0.5em 0;
+    margin: 0;
+  }
+  .menu ul li {
+    padding: 0.5em 1em 0.5em 3em;
+    font-size: 0.95em;
+    font-weight: regular;
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    background-size: auto 20px;
+    transition: all 0.15s linear;
+    cursor: pointer;
+  }
+
+.none{
+    text-decoration: none;
+}
+
+.radius{
+    padding: 10px 30px;
+}
+
